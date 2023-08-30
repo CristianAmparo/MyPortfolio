@@ -72,7 +72,6 @@ a:hover {
     align-items: center;
     position: relative;
     margin: 10px;
-    border: solid 1px black;
 }
 
 .socialmedia>img {
@@ -432,7 +431,8 @@ a:hover {
     width: 70%;
     height: 100%;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: #27374deb;
+    color: white;
     border-left: 1px solid #ddd;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;

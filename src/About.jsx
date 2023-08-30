@@ -13,7 +13,7 @@ export default function About() {
                         </div>
 
                     </div>
-                    <div class="triangleC">
+                    <div className="triangleC">
                         <img src="/images/triangle.png" alt="" />
                     </div>
                 </div>

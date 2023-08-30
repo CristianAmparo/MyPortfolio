@@ -19,10 +19,10 @@ export default function Home() {
                         <div className="home-profile">                     
                             <img className="profile" src="/images/profile.png"/>
                         </div>
-                        <div class="triangleA">
+                        <div className="triangleA">
                             <img src="/images/triangle.png" alt="" />
                         </div>
-                        <div class="triangleB">
+                        <div className="triangleB">
                             <img src="/images/triangle.png" alt="" />
                         </div>
                         
