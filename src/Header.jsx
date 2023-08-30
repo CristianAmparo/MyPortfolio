@@ -3,6 +3,7 @@ import Home from "./Home"
 import About from "./About"
 import Skills from "./Skills"
 import Project from "./Project"
+import Contact from "./Contact"
 import './css/Header.css'
 
 export default function Header(){
@@ -30,7 +31,7 @@ export default function Header(){
                     <li><a href="#About">About</a></li>
                     <li><a href="#Skills">Skills</a></li>
                     <li><a href="#Project">Projects</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#Contact">Contacts</a></li>
                 
                 </ul>
                 <div className="darkmode" onClick={Switch}>
@@ -49,6 +50,13 @@ export default function Header(){
              <section id="Project">
                 <Project />
              </section>
+             <section id="Contact">
+                <Contact />
+             </section>
+             <section id="Contact">
+                <Contact />
+             </section>
+         
         </div> 
     )
 }
