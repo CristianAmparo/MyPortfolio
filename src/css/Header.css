@@ -30,9 +30,17 @@
 
 }
 
-.darkmode>img {
+.darkModeIcon {
     width: 40px;
     height: 40px;
+    transition: 0.3s;
+}
+
+.lightModeIcon {
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+    transition: 0.3s;
 }
 
 .header>ul,

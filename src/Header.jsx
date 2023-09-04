@@ -8,7 +8,7 @@ import './css/Header.css'
 
 export default function Header(){
     const [darkmode, setDarkmode] = React.useState(false)
-    const image1 = darkmode? "/images/darkMode.png" : "/images/lighMode.png"
+    
     function Switch(){
         setDarkmode(prev => {
            return !prev
@@ -35,7 +35,7 @@ export default function Header(){
                 
                 </ul>
                 <div className="darkmode" onClick={Switch}>
-                    <img src={image1}/>
+                    <img className={darkmode? "darkModeIcon" : "lightModeIcon"} src="/images/darkMode.png"/>
                 </div>
             </div>
             <section id="Home">
